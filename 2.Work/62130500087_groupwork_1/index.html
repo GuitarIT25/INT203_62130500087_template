@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Group Work 1</title>
+
+  <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+  <!-- Using via Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- https://tailwindcss.com/docs/installation -->
+  <!-- Using Tailwind via CDN -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+  <!-- Vue CDN -->
+  <script src="https://unpkg.com/vue@next"></script>
+
+</head>
+
+<body class="bg-cover-no-repeat" style="background-image: url(images/1.jpg)">
+
+  <header class="mx-3 my-3">
+    <div class="grid grid-cols-4 gap-4">
+
+      <div>
+        <a href="index.html">
+          <img class="w-24 h-3 ml-1.5 mt-2 " src="images/Tesla_logo1.png" alt="tesla_logo">
+        </a>
+      </div>
+
+      <div class="col-span-2 ">
+        <div class="flex flex-row justify-center mt-1.5">
+          <a class="mx-2.5 font-semibold text-sm tracking-widest" href="https://www.tesla.com/models">MODEL S</a>
+          <a class="mx-2.5 font-semibold text-sm tracking-widest" href="https://www.tesla.com/model3">MODEL 3</a>
+          <a class="mx-2.5 font-semibold text-sm tracking-widest" href="https://www.tesla.com/modelx">MODEL X</a>
+          <a class="mx-2.5 font-semibold text-sm tracking-widest" href="https://www.tesla.com/modely">MODEL Y</a>
+          <a class="mx-2.5 font-semibold text-sm tracking-widest" href="https://www.tesla.com/solarroof">SOLAR ROOF</a>
+          <a class="mx-2.5 font-semibold text-sm tracking-widest" href="https://www.tesla.com/solarpanels">SOLAR
+            PANELS</a>
+        </div>
+      </div>
+
+      <div class="flex flex-row-reverse">
+        <img class="h-4 px-2.5 mt-1 " src="images/hamberger_menu.png" alt="tesla_logo">
+        <a class="mx-2.5 font-semibold text-base tracking-widest" href="https://www.tesla.com/teslaaccount">TESLA
+          ACCOUNT</a>
+        <a class="mx-2.5 font-semibold text-base tracking-widest" href="https://shop.tesla.com/?tesref=true">SHOP</a>
+      </div>
+
+    </div>
+  </header>
+  <div class="flex justify-center">
+
+    <div class="mt-28">
+      <h1 class="flex justify-center font-semibold text-4xl text-gray-800 py-1">Model S</h1>
+      <h1 class="flex justify-center text-gray-500">Order Online for
+        <a class="pl-1 no-underline hover:underline" href="https://www.tesla.com/support/delivery-options">Touchless
+          Delivery</a>
+      </h1>
+    </div>
+
+  </div>
+  <section class="w-auto h-52">
+  </section>
+  <div class="flex justify-center mt-96">
+    <form action="https://www.tesla.com/models/design">
+      <button class="rounded-full text-white w-60 h-10 m-3 bg-gray-800 hover:bg-red-700 shadow-2xl ">
+        CUSTOM ORDER
+      </button>
+    </form>
+
+    <form action="https://www.tesla.com/models/design">
+      <button class="rounded-full w-60 h-10 m-3 bg-gray-200 hover:bg-red-700 shadow-2xl ">
+        EXISTING INVENTORY
+      </button>
+    </form>
+
+  </div>
+
+  <a class="flex justify-center" href="images/more-than.png">
+    <img class="h-10 transform rotate-90" src="images/more-than.png">
+  </a>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
